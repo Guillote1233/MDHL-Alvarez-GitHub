@@ -13,28 +13,33 @@
 .logo{
     height: 120px;
     width: 120px;
-    margin-left: 1000px;
-    margin-top: 180px;
+    margin-left: 1200px;
+    margin-top: 190px;
     background-color: grey;
 }
 .navbar{
-    height: 150px;
-    width: 150px;
+    position: fixed;
+    top: 400px;
+    left: 10px;
+    width: 250px;
+    height: 100%;
+    padding: 10px;
 }
 
-section h2{
-    text-align: center;
-    background-color: blue;
+.navbar a{
+    display: block;
+    padding: 20px 10px;
 }
 .main{
-    display: flex;
-    padding: 10px;
+    display: block;
+    position:sticky;
+    margin: 10px 200px;
 }
-
 .main h2{
-    margin: 10px;
+    background-color: blue;
+    text-align: center;
 }
-
-article{
-    padding: 10px;
+.image{
+    height: 100%;
+    width: 250px;
 }
