@@ -1,29 +1,40 @@
 * {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
 .header{
     background-image: url(../design1_image1.jpg);
     background-size: cover;
     height: 300px;
+    margin: 10px;
 }
-
-h1{
-    font-size:72px;
-}
-
 .logo{
+    height: 120px;
+    width: 120px;
+    margin-left: 1000px;
+    margin-top: 180px;
+    background-color: grey;
+}
+.navbar{
     height: 150px;
-    float: right;
+    width: 150px;
 }
 
-.navbar a{
-    display: flex;
-    align-items: left;
-    justify-content: left;
-}
-
-h2{
+section h2{
     text-align: center;
     background-color: blue;
+}
+.main{
+    display: flex;
+    padding: 10px;
+}
+
+.main h2{
+    margin: 10px;
+}
+
+article{
+    padding: 10px;
 }
