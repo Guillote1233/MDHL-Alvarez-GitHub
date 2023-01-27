@@ -1,0 +1,52 @@
+* {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(../design1_image2.jpg);
+    background-size: cover;
+    height: 300px;
+    margin: 100px 10px 0px 10px;
+}
+.header h1{
+    position: absolute;
+    top: 10px;
+    font-size: xx-large;
+}
+.logo{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    left: 20px;
+    top: 450px;
+    background-color: grey;
+}
+.titleh2{
+    top: 410px;
+    left: 500px;
+    background-color: black;
+    color: white;
+    font-size:30px;
+    text-align: center;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+}
+
+.navbar{
+    position: absolute;
+    top: 80px;
+    left: 1200px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 20px;
+}
+.main{
+    display: block;
+    margin: 100px 250px;
+}
