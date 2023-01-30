@@ -40,7 +40,7 @@
     padding: 30px 10px;
 }
 .navbar a:hover{
-    color: red;
+    color: green;
 }
 .main{
     display: block;
@@ -51,7 +51,6 @@
     width: 150px;
     padding-top: 20px;
 }
-
 article{
     padding-top: 30px;
 }
