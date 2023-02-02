@@ -6,14 +6,16 @@
 }
 body{
     background: linear-gradient(#e66465, #9198e5);
-    height: 150vh;
+    min-height: 100vh;
+    width: 100vw;
 }
 .header{
     background-image: url(../design1_image2.jpg);
     background-size: cover;
     background-position: 55%;
     height: 300px;
-    margin: 100px 10px 0px 10px;
+    width: 100%;
+    margin-top: 100px;
 }
 .header h1{
     position: absolute;
@@ -31,7 +33,7 @@ body{
     position: absolute;
     top: 400px;
     left: 10px;
-    width: 1883px;
+    width: 100%;
     background-color: white;
     color: black;
     font-size:30px;
@@ -43,12 +45,14 @@ body{
     width: 250px;
     position: absolute;
     top:470px;
-    left: 1200px;
+    right: 100px;
 }
 .navbar{
+    display: flex;
+    gap: 0.5rem;
     position: absolute;
     top: 80px;
-    left: 1200px;
+    right: 100px;
 }
 .navbar a{
     text-decoration: none;
