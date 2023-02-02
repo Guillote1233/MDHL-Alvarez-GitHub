@@ -4,9 +4,14 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    height: 150vh;
+}
 .header{
     background-image: url(../design1_image2.jpg);
     background-size: cover;
+    background-position: 55%;
     height: 300px;
     margin: 100px 10px 0px 10px;
 }
@@ -21,11 +26,12 @@
     width: 120px;
     left: 10px;
     top: 470px;
-    background-color: grey;
 }
 .titleh2{
-    position: relative;
-    top: 300px;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    width: 1883px;
     background-color: white;
     color: black;
     font-size:30px;
@@ -39,7 +45,6 @@
     top:470px;
     left: 1200px;
 }
-
 .navbar{
     position: absolute;
     top: 80px;
@@ -48,15 +53,18 @@
 .navbar a{
     text-decoration: none;
     padding: 5px 20px;
-    background-color: blue;
+    background-color:chocolate;
     color: white;
     box-shadow: 10px 5px 5px black;
 }
 .navbar a.active{
     background-color: green;
 }
+.navbar a:hover{
+    transform: scale(1.2);
+}
 .main{
-    display: block;
+    display: flex;
     margin: 65px 250px;
 }
 .section article{
