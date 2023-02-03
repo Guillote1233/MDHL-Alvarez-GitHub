@@ -75,7 +75,7 @@ body{
     padding: 20px;
     width: 800px;
 }
-.section article > p{
+.section p{
     padding-top: 10px;
 }
 .videoPlayer{
