@@ -6,7 +6,6 @@
 }
 body{
     background: linear-gradient(#e66465, #9198e5);
-    width: 100vw;
     min-height: 100vh; 
 }
 
@@ -26,10 +25,12 @@ nav{
     display: flex;
     gap: 0.5rem;
     height: 2rem;
+    min-height: fit-content;
 
 }
 nav a{
     text-decoration: none;
+    min-height: fit-content;
     padding: 5px 20px;
     background-color:chocolate;
     color: white;
@@ -47,16 +48,26 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+main > section > article{
+    width: 50vh;
+    padding-top: 1rem;
+}
 .titleh2{
+    display: flex;
+    justify-content: center;
     background-color: white;
     color: black;
-    font-size:30px;
+    font-size:20px;
     text-align: center;
     border: 2px solid black;
 }
+article h3{
+    font-weight: bold;
+}
 figure{
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    top:35px;
+    width: 15vh;
 }
 .logo{
     height: 200px;
@@ -65,11 +76,6 @@ figure{
 .image{
     height: 200px;
     width: 200px;
-}
-
-.videoPlayer{
-    margin-top: 20px;
-    box-shadow: 10px 5px 5px;
 }
 .rulesTitle{
     text-align: center;
