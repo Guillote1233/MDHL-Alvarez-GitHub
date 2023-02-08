@@ -109,3 +109,74 @@ tr:nth-child(even){
 thead tr > th{
     background-color: #e66465;
 }
+form{
+    padding: 10px;
+}
+fieldset{
+    margin-bottom: 10px;
+    background-color: #9198e5;
+}
+legend{
+    font-size: large;
+    font-weight: bold;
+    margin-left:10px;
+    margin-bottom: 10px;
+    background-color: #e66465;
+    border: 2px solid #e66465;
+    border-radius: 20%;
+}
+label, input{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+form > h3{
+    margin-bottom: 10px;
+}
+form > p{
+    padding-bottom: 10px;
+}
+.sendButton{
+    background-color: #e66465;
+    border-radius: 20%;
+    width: 4rem;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:768px) {
+.container-gen{
+    flex-direction: column;
+    align-items: center;
+}
+.gameTable{
+    font-size: medium;
+}
+}
+@media screen and (max-width:375px) {
+nav{
+    flex-wrap: wrap;
+}
+.container-art{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gameTable{
+    width: 100%;
+    font-size: xx-small;
+}
+td, th{
+    padding:5px;
+}
+figure{
+    align-items: center;
+}
+input, label, legend{
+    font-size: small;
+}
+label{
+    display: block;
+}
+}
